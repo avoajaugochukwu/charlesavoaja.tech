@@ -45,7 +45,7 @@ export async function getStaticProps({ params }) {
     },
   });
 
-  return { props: { post: { source: mdxSource, meta } } };
+  return { props: { post: { mdxSource, meta } } };
 }
 
 export default SinglePost;

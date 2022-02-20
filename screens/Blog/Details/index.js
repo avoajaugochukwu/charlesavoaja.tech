@@ -2,7 +2,7 @@ import React from "react";
 import { MDXRemote } from "next-mdx-remote";
 
 const index = ({ post }) => {
-  const { source = {}, meta = {} } = post;
+  const { mdxSource = {}, meta = {} } = post;
 
   return (
     <article className="page sans">
@@ -10,7 +10,7 @@ const index = ({ post }) => {
         <h1 className="page-title">{meta.title}</h1>
       </header>
       <div className="page-body">
-        {source && <MDXRemote {...source} />}
+        {mdxSource && <MDXRemote {...mdxSource} />}
         
       </div>
     </article>

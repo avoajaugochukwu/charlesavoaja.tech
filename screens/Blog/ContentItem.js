@@ -3,12 +3,7 @@ import Image from "next/image";
 // import ClockSVG from "../../public/img/site/IjHBMPs-gray-clock-vector.svg";
 
 function ContentItem(props) {
-  // console.log(props, 'props')
-
   const { post } = props;
-
-  // console.log(post.slug, 'slug')
-
   return (
     <div className="p-4 md:w-1/3">
       <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">

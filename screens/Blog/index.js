@@ -2,7 +2,7 @@ import React from "react";
 import ContentItem from "./ContentItem";
 
 const BlogScreen = ({posts}) => {
-  // console.log(posts, "posts");
+  
   return (
     <>
       <div className="flex flex-col text-center w-full my-7">
