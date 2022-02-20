@@ -13,8 +13,6 @@ import "highlight.js/styles/atom-one-dark.css";
 
 
 function SinglePost({ post }) {
-  
-  // console.log(meta, "meta");
   return (
     <>
       <GeneralLayout>
