@@ -34,7 +34,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const { slug } = params;
-  const { content, meta } = getPostFromSlug(slug);
+  const { content, meta } = await getPostFromSlug(slug);
   const mdxSource = await serialize(content, {
     mdxOptions: {
       rehypePlugins: [
