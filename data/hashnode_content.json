@@ -1,0 +1,82 @@
+[ 
+  {
+    "title": "How to use React useEffect to post data and refresh without infinite callback",
+    "description": "Introduction This tutorial will walk you through updating your page DOM after an API call, using react hooks. In this example, we want to show new ite…",
+    "link": "https://charlesavoaja.hashnode.dev/how-to-use-react-useeffect-to-post-data-and-refresh-without-infinite-callback",
+    "read_time": "3 min read",
+    "link_type": "external",
+    "views": 0,
+    "comments": 0,
+    "category": "React, useEffect"
+  },
+  {
+    "title": "How to create Hugo blog on Github Pages Using Windows",
+    "description": "Hugo blog is becoming one of the most popular static site generators. The first time I used it, it blew me away by how easy it was to set up a blog on…",
+    "link": "https://charlesavoaja.hashnode.dev/how-to-create-hugo-blog-on-github-pages-using-windows",
+    "read_time": "5 min read",
+    "link_type": "external",
+    "views": 0,
+    "comments": 0,
+    "category": "Hugo, blogging and windows"
+  },
+  {
+    "title": "How to Build a Podcast Player With React Js Tailwind CSS and Apple Podcast API",
+    "description": "This article will cover all the steps and code needed to build a podcast player with React, TailwindCSS, and Apples' podcast API. It is a long one bro…",
+    "link": "https://charlesavoaja.hashnode.dev/how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api",
+    "read_time": "12 min read",
+    "link_type": "external",
+    "views": 0,
+    "comments": 0,
+    "category": "React, Rest API and Tailwind CSS"
+  },
+  {
+    "title": "How to Build a Podcast Player With React Js Tailwind CSS and Apple Podcast API Part 2",
+    "description": "Building the homepage Now we would focus on the homepage. Before tackling the homepage, you need to provide the dependencies and files that the homepa…",
+    "link": "https://charlesavoaja.hashnode.dev/how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api-part-2",
+    "read_time": "11 min read",
+    "link_type": "external",
+    "views": 0,
+    "comments": 0,
+    "category": "React, Rest API and Tailwind CSS"
+  },
+  {
+    "title": "How to Build a Podcast Player With React Js Tailwind CSS and Apple Podcast API Part 3",
+    "description": "Setting up the React-Redux store to handle playing audio In this section, we would implement the react-redux state management that handles our current…",
+    "link": "https://charlesavoaja.hashnode.dev/how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api-part-3",
+    "read_time": "11 min read",
+    "link_type": "external",
+    "views": 0,
+    "comments": 0,
+    "category": "React, Rest API and Tailwind CSS"
+  },
+  {
+    "title": "How to Build a Podcast Player With React Js Tailwind CSS and Apple Podcast API Part 4",
+    "description": "Building the Podcast Details Screen In this part, we would go back to the PodcastDetailsScreen component to put the finishing touches on it. In the fi…",
+    "link": "https://charlesavoaja.hashnode.dev/how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api-part-4",
+    "read_time": "10 min read",
+    "link_type": "external",
+    "views": 0,
+    "comments": 0,
+    "category": "React, Rest API and Tailwind CSS"
+  },
+  {
+    "title": "How to Build a Podcast Player With React Js Tailwind CSS and Apple Podcast API Part 5",
+    "description": "Add footer player and build the search functionality Add footer player The footer player will allow us to navigate through the application and keep th…",
+    "link": "https://charlesavoaja.hashnode.dev/how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api-part-5",
+    "read_time": "11 min read",
+    "link_type": "external",
+    "views": 0,
+    "comments": 0,
+    "category": "React, Rest API and Tailwind CSS"
+  },
+  {
+    "title": "",
+    "description": "",
+    "link": "",
+    "read_time": "",
+    "link_type": "",
+    "views": 0,
+    "comments": 0,
+    "category": "React, Rest API and Tailwind CSS"
+  }
+]

@@ -1,0 +1,1 @@
+All posts files must have the same name as the slug

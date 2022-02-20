@@ -1,0 +1,51 @@
+.HeroSVGWrapper svg {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.code_rotate {
+  animation: roll 2s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes roll {
+
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  } 
+}
+
+.note_book_move {
+  animation: left-right 5s linear infinite;
+}
+
+@keyframes left-right {
+  from {
+    transform: rotateY(-40deg);    
+  }
+
+  to {
+    transform: rotateY(40deg);
+  } 
+}
+
+.chart_enlarge {
+  animation: spin 10s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+@keyframes spin {
+
+  from {
+    transform: rotateY(0deg);
+  }
+
+  to {
+    transform: rotateY(360deg);
+  } 
+}
