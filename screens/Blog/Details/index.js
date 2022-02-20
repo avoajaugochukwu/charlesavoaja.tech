@@ -2,7 +2,12 @@ import React from "react";
 import { MDXRemote } from "next-mdx-remote";
 
 const index = ({ post }) => {
-  const { mdxSource = {}, meta = {} } = post;
+  let mdxSource, meta = null
+  if (post) {
+    mdxSource = post.mdxSource
+    meta = post.meta  
+  }
+  
 
   return (
     <article className="page sans">
