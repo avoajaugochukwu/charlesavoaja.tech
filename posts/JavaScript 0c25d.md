@@ -1,17 +1,4 @@
----
-title: JavaScript Call, Bind Apply for dummies
-tags:
-  - JavaScript
-  - Call
-  - Bind
-  - Apply
-  - This
-  - Interview
-date: 2022-03-05
-excerpt: We will learn the basics of call, bind and apply
-slug: javascript-call-bind-apply-for-dummies
----
-
+# JavaScript Call, Bind Apply for dummies
 
 I just sat for an online test for a senior front-end developer. And one of the main areas I was tested on was JavaScripts’ `call()`, `bind()` `apply()`.
 
