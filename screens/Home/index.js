@@ -11,9 +11,10 @@ const index = () => {
         <h1 className="text-4xl font-bold">
           Front-end Developer, Writer & Mentor
         </h1>
-        <p className="mt-4 text-2xl font-light">
-          I code beautifully simple and interactive things , and I love what I
-          do.
+        <p className="mt-4 text-2xl font-light md:mx-40 mx-5">
+          I am a front-end developer who creates interactive experiences using
+          for businesses. I love writing and documentation. I am currently
+          learning mobile development using React Native.
         </p>
       </div>
       {/*  */}
