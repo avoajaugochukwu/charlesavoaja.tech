@@ -1,0 +1,152 @@
+---
+title: How to create folder and multiple files with bash on terminal
+tags:
+  - Bash
+  - Terminal
+  - Efficiency
+date: 2022-05-06
+excerpt: Get some real world experience of working with bash
+slug: how-to-create-folder-and-multiple-files-with-bash
+---
+# How to create folder and multiple files with bash on terminal
+
+### Introduction
+
+I came across a challenge while building a node API. I had a lot of similar files to create, and creating them manually was fine, but the programmer in me knew there was a better solution. So in this tutorial, I am going to walk you through my solution for creating multiple empty files and folders with bash.
+
+This technique has been tested on Linux and macOS
+
+### How I landed on bash
+
+There are solutions out there that call for using python or some other fancy tool, but I saw it as an opportunity to learn a little bash. Because a lot of developers are scared of bash, including me.
+
+### The problem
+
+```
+resources
+ ┣ post
+ ┃ ┣ post.controller.ts
+ ┃ ┣ post.interface.ts
+ ┃ ┣ post.model.ts
+ ┃ ┣ post.service.ts
+ ┃ ┗ post.validation.ts
+ ┗ user
+ ┃ ┣ user.controller.ts
+ ┃ ┣ user.interface.ts
+ ┃ ┣ user.model.ts
+ ┃ ┣ user.service.ts
+ ┃ ┗ user.validation.ts
+```
+
+This is the structure of the folder; as you can see, creating a new resource will require creating a folder and five files with a similar structure. If I have to create ten resources, that means creating fifty new files and ten folders. Because of the uniform nature of the folder and files, the file and folder creation process is a good candidate for automation.
+
+### The solution
+
+```
+folder
+ ┣ src
+ ┃ ┣ resources
+ ┃ ┃ ┣ post
+ ┃ ┃ ┃ ┣ post.controller.ts
+ ┃ ┃ ┃ ┣ post.interface.ts
+ ┃ ┃ ┃ ┣ post.model.ts
+ ┃ ┃ ┃ ┣ post.service.ts
+ ┃ ┃ ┃ ┗ post.validation.ts
+ ┃ ┃ ┗ user
+ ┃ ┃ ┃ ┣ user.controller.ts
+ ┃ ┃ ┃ ┣ user.interface.ts
+ ┃ ┃ ┃ ┣ user.model.ts
+ ┃ ┃ ┃ ┣ user.service.ts
+ ┃ ┃ ┃ ┗ user.validation.ts
+ ┃ ┣ app.ts
+ ┃ ┗ index.ts
+ ┗ resource.sh
+```
+
+First, run the following command from your terminal:
+
+```bash
+which bash
+```
+
+This should return something like this:
+
+```bash
+/bin/bash
+```
+
+This shows the particular bash instance that your computer is currently using, which is very important when you create the bash file.
+
+<aside>
+💡 Note that bash files have a .sh extension.
+
+</aside>
+
+Next, create a bash file. In my case, I created `[resources.sh](http://resources.sh)` in the root of my project folder.
+
+Then copy the following code:
+
+```bash
+#! /bin/bash
+echo "What is the name of the resource?"
+read resourceName
+echo "Creating files for $resourceName"
+cd src/resources
+mkdir $resourceName
+cd $resourceName
+touch $resourceName{.controller.ts,.interface.ts,.model.ts,.service.ts,.validation.ts}
+echo ""
+echo "Files created:"
+echo ""
+echo "$resourceName.controller.ts"
+echo "$resourceName.interface.ts"
+echo "$resourceName.model.ts"
+echo "$resourceName.service.ts"
+echo "$resourceName.validation.ts"
+echo ""
+echo "$resourceName files creation complete!"
+```
+
+I will explain the code above in bits.
+
+Most of the statements are `echo` and which means print to screen. So we can get those out of the way and focus on the main functionalities.
+
+```bash
+#! /bin/bash
+echo "What is the name of the resource?"
+read resource
+echo "Creating files for $resourceName"
+```
+
+The first line, `#! /bin/bash` is the location of your bash program on your machine it might be different, but you can get it by using the command `which bash` in the terminal as I stated above.
+
+After that, we just print a message prompting the user to the screen.
+
+Then we use `read resourceName` to obtain the user input. This input will be stored in a variable called `$resourceName`, which will serve as the name of the folder as well as the prefix for each file.
+
+```bash
+cd src/resources
+mkdir $resourceName
+cd $resourceName
+touch $resourceName{.controller.ts,.interface.ts,.model.ts,.service.ts,.validation.ts}
+```
+
+After obtaining the required name in the `resourceName` variable, you navigate to the folder where you want to create the new folder and files using `cd src/resoources` because of the name of the folder in my case. Yours can be called anything.
+
+Then we make a new folder using `mkdir $resourceName` 
+
+Then we navigate into that folder with `cd $resourceName` 
+
+The `touch` statement is used to create all the files at once along with the extension.
+
+After that, the rest of the code is optional messages you want to display to the user.
+
+To run this script, navigate with your command line to the folder containing your bash script, and run:
+
+```bash
+bash resource.sh
+```
+
+Because my file is called `resource.sh`. This will prompt you to enter the name of the resource you want to create, type that out and press enter. Then the script will go ahead and create the folder and files.
+
+The script might not work as intended right away if there is an error, it will be shown in the terminal or if the files are not being created in the right place you can cross-check your folder creation and navigation statements.
