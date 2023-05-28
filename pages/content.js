@@ -9,7 +9,7 @@ function content(data) {
   return (
     <>
       <Head>
-        <title>charlesavoaja | Front end developer, writer and mentor | blog</title>
+        <title>charle savoaja | Software Engineer, writer and mentor | blog</title>
         <meta name="description" content="charlesavoaja | Front end developer, writer and mentor | blog" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
