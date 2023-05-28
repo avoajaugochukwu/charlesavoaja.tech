@@ -9,12 +9,10 @@ const index = () => {
     <div className="text-center">
       <div className="my-14">
         <h1 className="text-4xl font-bold">
-          Front-end Developer, Writer & Mentor
+          Software Engineer, Writer & Mentor
         </h1>
         <p className="mt-4 text-2xl font-light md:mx-40 mx-5">
-          I am a front-end developer who creates interactive experiences using
-          for businesses. I love writing and documentation. I am currently
-          learning mobile development using React Native.
+          I am a skilled frontend and backend developer with React, Angular, NodeJS, Java, Kubernetes, Docker, Ansible, and Terraform skills. With a firm grasp of user experience and a business-oriented mindset, I excel in solving complex problems using technology. My proficiency enables me to build robust systems while my knowledge of containerization and infrastructure orchestration streamlines deployment and management. I bridge the gap between technology and business objectives, combining a passion for innovation with a strategic mindset. 
         </p>
       </div>
       {/*  */}
