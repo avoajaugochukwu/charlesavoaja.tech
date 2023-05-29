@@ -12,7 +12,7 @@ const index = () => {
           Software Engineer, Writer & Mentor
         </h1>
         <p className="mt-4 text-2xl font-light md:mx-40 mx-5">
-          React - Angular - NodeJS - Java - Kubernetes - Docker - Linux - Terraform 
+          React - Angular - NodeJS - Django - Java - Kubernetes - Docker - Linux - Terraform 
         </p>
       </div>
       {/*  */}
@@ -33,7 +33,7 @@ const index = () => {
           </h2>
           {/*  */}
           <p className="mt-6 text-xl font-light">
-            I am a skilled frontend and backend developer with React, Angular, NodeJS, Java, Kubernetes, Docker, Ansible, and Terraform skills. With a firm grasp of user experience and a business-oriented mindset, I excel in solving complex problems using technology. My proficiency enables me to build robust systems while my knowledge of containerization and infrastructure orchestration streamlines deployment and management. I bridge the gap between technology and business objectives, combining a passion for innovation with a strategic mindset.
+            I am a skilled frontend and backend developer with React, Angular, NodeJS, Django, Java, Kubernetes, Docker, Ansible, and Terraform skills. With a firm grasp of user experience and a business-oriented mindset, I excel in solving complex problems using technology. My proficiency enables me to build robust systems while my knowledge of containerization and infrastructure orchestration streamlines deployment and management. I bridge the gap between technology and business objectives, combining a passion for innovation with a strategic mindset.
           </p>
         </div>
       </div>
