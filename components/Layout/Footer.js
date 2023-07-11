@@ -18,17 +18,6 @@ const Footer = () => {
           />
         </Link>
 
-        <Link
-          href="https://www.linkedin.com/in/avoajaugochukwu/"
-          passHref={true}
-        >
-          <img
-            src="/svg/linkedin.svg"
-            alt="twitter logo"
-            className="w-6 h-6 cursor-pointer"
-          />
-        </Link>
-
         <Link href="https://github.com/avoajaugochukwu" passHref={true}>
           <img
             src="/svg/github.svg"
