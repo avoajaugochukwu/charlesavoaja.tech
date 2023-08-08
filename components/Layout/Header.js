@@ -7,7 +7,7 @@ function Header() {
     <>
       <Head>
         <title>
-          charlesavoaja | Front end developer, writer and mentor | blog
+          charlesavoaja | Software developer, writer, and mentor | blog
         </title>
         <meta
           name="description"
