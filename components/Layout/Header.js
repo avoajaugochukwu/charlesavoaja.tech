@@ -29,7 +29,7 @@ function Header() {
             <a
               href="https://blog.charlesavoaja.tech/"
               className=" p-2 lg:px-4 md:mx-2 text-[#7510f7] hover:bg-gray-200">
-              Blog
+              Bloger
             </a>
             
 
