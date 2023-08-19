@@ -40,11 +40,11 @@ function Header() {
               Github
             </a>
 
-            <Link href="/content">
+            {/* <Link href="/content">
               <a className="p-2 lg:px-4 md:mx-2 text-[#7510f7] hover:bg-gray-200">
                 Content
               </a>
-            </Link>
+            </Link> */}
 
             <a
               href="https://read.cv/ugo"
