@@ -26,11 +26,12 @@ function Header() {
           </div>
           {/* ------ */}
           <div className="flex mt-3" id="navbar-collapse">
-            <Link href="/blog">
-              <a className=" p-2 lg:px-4 md:mx-2 text-[#7510f7] hover:bg-gray-200">
-                Blog
-              </a>
-            </Link>
+            <a
+              href="https://blog.charlesavoaja.tech/"
+              className=" p-2 lg:px-4 md:mx-2 text-[#7510f7] hover:bg-gray-200">
+              Blog
+            </a>
+            
 
             <a
               href="https://github.com/avoajaugochukwu"
