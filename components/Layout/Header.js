@@ -45,9 +45,17 @@ function Header() {
                 Content
               </a>
             </Link> */}
-
+            {/*
             <a
               href="https://read.cv/ugo"
+              className="p-2 lg:px-4 md:mx-2 text-[#7510f7] hover:bg-gray-200"
+            >
+              Resume
+            </a>
+            */}
+  
+            <a
+              href="https://www.linkedin.com/in/avoajaugochukwu/"
               className="p-2 lg:px-4 md:mx-2 text-[#7510f7] hover:bg-gray-200"
             >
               Resume
