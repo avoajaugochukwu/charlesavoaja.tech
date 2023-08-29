@@ -12,7 +12,7 @@ const index = () => {
           Software Engineer, Writer & Mentor
         </h1>
         <p className="mt-4 text-2xl font-light md:mx-40 mx-5">
-          React - Angular - NodeJS - Django - Java - Kubernetes - Docker - Linux - Terraform 
+          Java - React - Angular - AWS - Terraform - C#
         </p>
       </div>
       {/*  */}
